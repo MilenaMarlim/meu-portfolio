@@ -1,0 +1,19 @@
+:root{
+    --cor-primaria: rgb(20, 1, 1);
+    --cor-secundaria:var(--cor-primaria)--cor-branca:#fff;
+    --cor-fundo-escuro:black;
+    --cor-fundo-hover: #00D2DF;
+
+}
+
+:root{
+    --fonte-primaria: 'Vida loka', sans serif;
+    --fonte-secundaria: 'Cormorant Garamond', sans serif;
+    --fonte-extra-gigante: 64px;
+    --fonte-grande: 24px;
+    --fonte-normal: 16px;
+}
+
+:root{
+    
+}

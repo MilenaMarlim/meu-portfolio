@@ -2,3 +2,9 @@ body{
     background-color: black;
     color: white;
 }
+
+html{
+    font-weight: 300;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Righteous&family=Vidaloka&display=swap');
