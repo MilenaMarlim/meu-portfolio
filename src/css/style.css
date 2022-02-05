@@ -2,10 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    /* margin: 20px; */
+    padding: 30px 15px;
+    position: relative;
 }
 
-.cabecalho-menu .item {
+.cabecalho-menu .navegacao ul {
+    display: flex;
+}
+
+.navegacao li a {
     padding: 20px;
     color: rgb(203, 134, 243);
     font-size: 20px;
@@ -13,7 +19,7 @@
     transition: 0.2s ease-in-out;
 }
 
-.item:hover {
+.cabecalho-menu .navegacao ul li a:hover {
     font-size: 20px;
     font-weight: 900;
     color: black;
@@ -21,8 +27,71 @@
     border-radius: 8%;
 }
 
-.logo {
+.cabecalho-menu .menu {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.cabecalho-menu .navegacao label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cabecalho-menu .hamburguer {
+    background-color: white;
+    color: white;
+    position: relative;
+    display: block;
+    background-color: ;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho-menu .hamburguer:before, .cabecalho-menu .hamburguer:after {
+    background-color: white;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.cabecalho-menu .hamburguer:before {
+    top: -10px;
+}
+
+.cabecalho-menu .hamburguer:after {
+    bottom: -10px;
+}
+
+.cabecalho-menu input {
+    display: none;
+}
+
+.cabecalho-menu input:checked~label .hamburguer {
+    transform: rotate(45deg);
+}
+
+.cabecalho-menu input:checked~label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.cabecalho-menu input:checked~label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.cabecalho-menu .logo {
     width: 100px;
+    transition: 0.2s;
 }
 
 .apresentacao {
@@ -52,7 +121,8 @@
 .img-poligonos {
     position: absolute;
     right: 0;
-    height: 130%;
+    height: 110%;
+    width: 700px;
 }
 
 .sobre {

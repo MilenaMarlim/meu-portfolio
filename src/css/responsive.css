@@ -1,0 +1,35 @@
+@media(max-width:1280px) {
+    .cabecalho-menu {
+        padding: 30px;
+
+    }
+}
+
+@media(max-width: 900px) {
+    .cabecalho-menu .menu {
+        display: block;
+    }
+
+    .cabecalho-menu .navegacao input:checked~ul {
+        display: block;
+    }
+
+    .cabecalho-menu .navegacao {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .cabecalho-menu .navegacao ul {
+        display: none;
+        background-color: var(--cor-fundo-escuro);
+        padding: 20px;
+    }
+
+    .cabecalho-menu .navegacao li a {
+        color: var(--cor-branca);
+        padding: 20px;
+        display: block;
+    }
+}

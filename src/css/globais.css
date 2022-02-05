@@ -2,9 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
+
 html{
     font-weight: 300;
     color: var(--cor-branca);
+    max-width: 1440px;
 }
 
 body{
