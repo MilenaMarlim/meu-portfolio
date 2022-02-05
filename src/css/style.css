@@ -155,7 +155,7 @@
     padding: 0px 0 20px 0;
 }
 
-.contato .redes-sociais{
+.contato .redes-sociais {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -171,8 +171,7 @@
     padding: 15px;
     width: 65px;
     transition: 0.3s ease-in-out;
-    color:rgb(94, 47, 95);
-    
+    color: rgb(94, 47, 95);
 }
 
 .redes-sociais a:hover {
@@ -180,5 +179,42 @@
     color: white;
 }
 
+.botao-curriculo {
+    font-size: var(--fonte-grande);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    background-color: var(--cor-primaria);
+    color: white;
+    width: 300px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.efeito{
+    background:  #00D2DF;
+    transform-style: preserve-3d;
+}
+
+.efeito:after{
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background: #3a9999;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Clique para baixar !';
+    text-align: center;
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
 
 
