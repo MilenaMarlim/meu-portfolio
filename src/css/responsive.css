@@ -34,6 +34,12 @@
 
     .sobre {
         flex-wrap: wrap;
+        margin-bottom: 300px;
+    }
+    .parte-textual-informacao {
+        padding-left: 0;
+        border-left: none;
+        padding-top: 100px;
     }
 }
 
@@ -51,4 +57,5 @@
         height: 50%;
         margin-top: 40px;
     }
+
 }

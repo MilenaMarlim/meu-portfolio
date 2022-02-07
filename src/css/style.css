@@ -45,7 +45,7 @@
     color: white;
     position: relative;
     display: block;
-    background-color: ;
+    background-color: rgb(203, 134, 243) ;
     width: 30px;
     height: 2px;
     top: 29px;
@@ -129,20 +129,23 @@
 .sobre {
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .parte-textual-informacao {
     width: 600px;
-    margin-top: 40px;
-    text-align: center;
     font-size: 24px;
-    padding-left: 100px;
+    border-left: 1px solid #3a9999;
+    padding-left: 150px;
+    text-align: center;
+    line-height: 35px;
 }
 
 .parte-textual-informacao h2 {
     padding-bottom: 30px;
+    text-align: center;
+    color: rgb(213, 135, 214);;
 }
 
 .foto {
@@ -180,41 +183,23 @@
 }
 
 .botao-curriculo {
+    background-color:  rgb(94, 47, 95);
     font-size: var(--fonte-grande);
     margin: 50px;
     padding: 20px;
-    border-radius: 10px;
-    transition: all 0.2s ease;
-    background-color: var(--cor-primaria);
-    color: white;
+    border-radius: 10px; 
     width: 300px;
     align-self: center;
     cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid white;
 }
 
-.efeito{
-    background:  #00D2DF;
-    transform-style: preserve-3d;
+.botao-curriculo a{
+    color: white;
 }
 
-.efeito:after{
-    top: -100%;
-    left: 0px;
-    width: 100%;
-    padding: 20px;
-    position: absolute;
-    background: #3a9999;
-    border-radius: 10px;
-    box-sizing: border-box;
-    content: 'Clique para baixar !';
-    text-align: center;
-    transform-origin: left bottom;
-    transform: rotateX(90deg);
+.botao-curriculo:hover{
+    background-color: #00D2DF;
+    color: white;
 }
-
-.efeito:hover{
-    transform-origin: center bottom;
-    transform: rotateX(-90deg) translateY(100%);
-}
-
-
