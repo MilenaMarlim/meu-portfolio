@@ -41,6 +41,9 @@
         border-left: none;
         padding-top: 100px;
     }
+    .img-poligonos{
+        opacity: 30%;
+    }
 }
 
 @media(max-width: 425px) {
