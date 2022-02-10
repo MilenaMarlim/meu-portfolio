@@ -301,6 +301,27 @@
     align-items: center;
 }
 
+.despedida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.despedida img{
+    height: 300px;
+    border-radius: 30%;
+}
+.despedida h2{
+    font-family: var(--fonte-despedida);
+    font-size: 20px;
+    background: -webkit-gradient(left, rgb(213, 135, 214 ) 0%, #00D2DF 100% );
+    background: linear-gradient(to right, rgb(213, 135, 214 ) 0%, #00D2DF 100% );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .rodape a {
     text-decoration: none;
     color: white;
