@@ -2,6 +2,10 @@
     .cabecalho-menu {
         padding: 30px;
     }
+
+    .projetos .quadro-de-projetos{
+        padding: 40px;
+    }
 }
 
 @media(max-width: 900px) {

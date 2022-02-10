@@ -210,10 +210,13 @@
     color: rgb(213, 135, 214);
 }
 
+.habilidade h3 {
+    color: rgb(213, 135, 214);
+}
+
 .quadro-de-habilidades {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
@@ -222,13 +225,71 @@
 .habilidade {
     text-align: center;
     width: 400px;
-    height: 200px;
-   
+    height: 300px;
+    font-size: 24px;
+    margin: 10px;
+    border: 1px solid rgb(213, 135, 214);
 }
 
-.habilidade a{
+.habilidade a {
     font-size: 80px;
     color: #00D2DF
+}
+
+.projetos .quadro-de-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 0 auto;
+    grid-gap: 20px;
+    margin: 0 20px 100px 20px;
+}
+
+.projetos .quadro-de-projetos .projeto {
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    position: relative;
+}
+
+.projetos .quadro-de-projetos .projeto:hover, .projetos .quadro-de-projetos .projeto:hover .informacoes-projeto {
+    opacity: 0.8;
+}
+
+.projetos .quadro-de-projetos .projeto img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 100%;
+}
+
+.projetos .quadro-de-projetos .informacoes-projeto {
+    padding: 20px;
+    position: absolute;
+    background-color: #3a9999;
+    color: white;
+    font-size: 20px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+.projetos .quadro-de-projetos h3{
+    color:#00D2DF;
+   text-align: center;
+   font-size: 24px;
+}
+
+.titulo-projetos {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(213, 135, 214);
+    margin: 50px 0 50px 0;
 }
 
 .rodape {
@@ -248,5 +309,4 @@
 .rodape a:hover {
     font-size: 25px;
     color: #00D2DF;
-
 }
