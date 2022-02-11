@@ -134,10 +134,10 @@
 }
 
 .parte-textual-informacao {
-    width: 600px;
+    width: 650px;
     font-size: 24px;
     border-left: 1px solid #3a9999;
-    padding-left: 150px;
+    padding-left: 200px;
     text-align: center;
     line-height: 35px;
 }
@@ -277,12 +277,20 @@
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.projetos .quadro-de-projetos .informacoes-projeto a{
+    color: white;
 }
 
-.projetos .quadro-de-projetos h3{
-    color:#00D2DF;
-   text-align: center;
-   font-size: 24px;
+.projetos .quadro-de-projetos h3 {
+    color: #00D2DF;
+    text-align: center;
+    font-size: 24px;
 }
 
 .titulo-projetos {
@@ -301,7 +309,7 @@
     align-items: center;
 }
 
-.despedida{
+.despedida {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,25 +317,58 @@
     margin-bottom: 30px;
 }
 
-.despedida img{
+.despedida img {
     height: 300px;
     border-radius: 30%;
 }
-.despedida h2{
+
+.despedida h2 {
     font-family: var(--fonte-despedida);
     font-size: 20px;
-    background: -webkit-gradient(left, rgb(213, 135, 214 ) 0%, #00D2DF 100% );
-    background: linear-gradient(to right, rgb(213, 135, 214 ) 0%, #00D2DF 100% );
+    background: -webkit-gradient(left, rgb(213, 135, 214) 0%, #00D2DF 100%);
+    background: linear-gradient(to right, rgb(213, 135, 214) 0%, #00D2DF 100%);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.rodape{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, rgb(7, 1, 7) 0%, #00D2DF 100%);
+}
+
 .rodape a {
     text-decoration: none;
     color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape p{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .rodape a:hover {
     font-size: 25px;
     color: #00D2DF;
 }
+.rodape .redes-sociais {
+    display: flex;
+    margin-top: 20px;
+}
+
+.rodape .redes-sociais a{
+    margin: 0 10px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #ebd1f1;
+    border-radius: 50%;
+    padding: 15px;
+    width: 65px;
+    transition: 0.3s ease-in-out;
+    color: rgb(74, 11, 75);
+}
+
