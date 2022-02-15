@@ -3,16 +3,18 @@
 
 💜 Olá !
 
-💬 Portfolio acho que é um processo de construção e melhoramentos de forma vitalícia, não é mesmo?
+💬 Portfolio acho que é um processo eterno de construção e melhoramentos, não é mesmo?
 
 🚀  Quer ver como ficou? Clique:
 
 https://milenamarlim.github.io/meu-portfolio/
 
 
-💬 Meus maiores aprendizados nesse projeto:
+💬 Meus maiores aprendizados/desafios nesse projeto:
 
 * Criação;
+* Inovação;
+* Construção do zero;
 * Extensa pesquisa por portfólios que pudessem me inspirar;
 * Flex;
 * Grid
