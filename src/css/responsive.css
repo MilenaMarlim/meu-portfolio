@@ -4,8 +4,12 @@
     }
 
     .projetos .quadro-de-projetos{
-        padding: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
+
+
 }
 
 @media(max-width: 900px) {
@@ -38,22 +42,26 @@
 
     .sobre {
         flex-wrap: wrap;
-        margin-bottom: 300px;
+        height: 100%;
+    }
+
+    .sobre img{
+        width: 70%;
     }
     .parte-textual-informacao {
         padding-left: 0;
         border-left: none;
-        padding-top: 100px;
+        padding-top: 50px;
+        width: 90%;
     }
     .img-poligonos{
         opacity: 30%;
-    }
+    }   
 }
 
 @media(max-width: 425px) {
     .titulo-nome {
         font-size: 30px;
-
     }
 
     .titulo-texto {
@@ -67,6 +75,10 @@
 
     .rodape{
         width: 100%;
+    }
+
+    .despedida{
+        text-align: center;
     }
 
 }
