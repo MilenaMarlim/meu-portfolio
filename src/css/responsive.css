@@ -2,14 +2,6 @@
     .cabecalho-menu {
         padding: 30px;
     }
-
-    .projetos .quadro-de-projetos{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-
 }
 
 @media(max-width: 900px) {
