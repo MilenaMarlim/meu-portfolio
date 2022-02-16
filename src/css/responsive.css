@@ -49,7 +49,7 @@
     .img-poligonos{
         opacity: 30%;
     }   
-    .projetos{
+    .quadro-de-projetos{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -74,9 +74,4 @@
     .rodape{
         width: 100%;
     }
-
-    .despedida{
-        text-align: center;
-    }
-
 }
