@@ -248,11 +248,12 @@
 .projetos{
     height: 100%;
     margin-bottom: 10%;
+    margin: 0 auto;
 }
 
 .projetos .quadro-de-projetos {
     display: grid;
-    grid-template-columns:repeat( auto-fill, minmax(400px, 1fr)) ;
+    grid-template-columns:repeat( auto-fit, minmax(400px, 1fr)) ;
     margin: 0 20px 20px 20px; 
     grid-gap: 20px;
     row-gap: 80px;
