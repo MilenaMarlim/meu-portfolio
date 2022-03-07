@@ -240,6 +240,11 @@
     color: #00D2DF
 }
 
+.texto-habilidades{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .projetos{
     height: 100%;
     margin-bottom: 10%;
