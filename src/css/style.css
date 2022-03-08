@@ -317,15 +317,6 @@
     margin: 50px 0 50px 0;
 }
 
-.rodape {
-    height: 100px;
-    border-top: 1px solid #44405c;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .despedida {
     display: flex;
     flex-direction: column;
@@ -334,6 +325,7 @@
     margin-bottom: 30px;
     text-align: center;
     width: 100%;
+
 }
 
 .despedida img {
@@ -345,7 +337,6 @@
     font-size: 20px;
     background: -webkit-gradient(left, rgb(213, 135, 214) 0%, #00D2DF 100%);
     background: linear-gradient(to right, rgb(213, 135, 214) 0%, #00D2DF 100%);
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -354,7 +345,11 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    border-top: 1px solid #44405c;
+    font-size: 20px;
     background: linear-gradient(to right, rgb(7, 1, 7) 0%, #00D2DF 100%);
 }
 
